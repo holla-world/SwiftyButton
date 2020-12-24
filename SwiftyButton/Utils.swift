@@ -42,7 +42,7 @@ enum Utils {
         let size = CGSize(width: width, height: height)
             
         let frontImage = image(color: color, size: size, cornerRadius: cornerRadius)
-        var backImage: UIImage? = nil
+        var backImage: UIImage?
         if shadowHeight != 0 {
             backImage = image(color: shadowColor, size: size, cornerRadius: cornerRadius)
         }
