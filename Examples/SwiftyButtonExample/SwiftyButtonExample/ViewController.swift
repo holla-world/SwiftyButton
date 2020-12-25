@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             shadow: UIColor(red: 41/255, green: 128/255, blue: 185/255, alpha: 1)
         )
         
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
+        let indicator = UIActivityIndicatorView(style: .white)
         indicator.translatesAutoresizingMaskIntoConstraints = false
         button.contentView.addSubview(indicator)
         button.contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-10-[indicator]-10-|", metrics: nil, views: ["indicator": indicator]))

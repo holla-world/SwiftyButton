@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0372F2E1C0694F500E00B85 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0372F2D1C0694F500E00B85 /* CustomPressableButton.swift */; };
-		C09D784B1DBD427A0014565F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F04E171BFA842B00E9925E /* Utils.swift */; };
-		C09D784E1DBD4E110014565F /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D784D1DBD4E110014565F /* FlatButton.swift */; };
-		C09D78501DBD54B50014565F /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D784F1DBD54B50014565F /* PressableButton.swift */; };
+		B69FC5E82594ADAA007EB8BD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC5E42594ADAA007EB8BD /* Utils.swift */; };
+		B69FC5E92594ADAA007EB8BD /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC5E52594ADAA007EB8BD /* CustomPressableButton.swift */; };
+		B69FC5EA2594ADAA007EB8BD /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC5E62594ADAA007EB8BD /* FlatButton.swift */; };
+		B69FC5EB2594ADAA007EB8BD /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC5E72594ADAA007EB8BD /* PressableButton.swift */; };
 		C0F04E0F1BFA83F700E9925E /* SwiftyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F04E0E1BFA83F700E9925E /* SwiftyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		812783EF6177ECF8A694BB5E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0372F2D1C0694F500E00B85 /* CustomPressableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPressableButton.swift; sourceTree = "<group>"; };
-		C09D784D1DBD4E110014565F /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
-		C09D784F1DBD54B50014565F /* PressableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressableButton.swift; sourceTree = "<group>"; };
+		B69FC5E42594ADAA007EB8BD /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/SwiftyButton/Utils.swift; sourceTree = SOURCE_ROOT; };
+		B69FC5E52594ADAA007EB8BD /* CustomPressableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = Sources/SwiftyButton/CustomPressableButton.swift; sourceTree = SOURCE_ROOT; };
+		B69FC5E62594ADAA007EB8BD /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = Sources/SwiftyButton/FlatButton.swift; sourceTree = SOURCE_ROOT; };
+		B69FC5E72594ADAA007EB8BD /* PressableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = Sources/SwiftyButton/PressableButton.swift; sourceTree = SOURCE_ROOT; };
 		C0F04E0B1BFA83F700E9925E /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F04E0E1BFA83F700E9925E /* SwiftyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyButton.h; sourceTree = "<group>"; };
 		C0F04E101BFA83F700E9925E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0F04E171BFA842B00E9925E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +64,10 @@
 		C0F04E0D1BFA83F700E9925E /* SwiftyButton */ = {
 			isa = PBXGroup;
 			children = (
-				C09D784D1DBD4E110014565F /* FlatButton.swift */,
-				C09D784F1DBD54B50014565F /* PressableButton.swift */,
-				C0372F2D1C0694F500E00B85 /* CustomPressableButton.swift */,
-				C0F04E171BFA842B00E9925E /* Utils.swift */,
+				B69FC5E52594ADAA007EB8BD /* CustomPressableButton.swift */,
+				B69FC5E62594ADAA007EB8BD /* FlatButton.swift */,
+				B69FC5E72594ADAA007EB8BD /* PressableButton.swift */,
+				B69FC5E42594ADAA007EB8BD /* Utils.swift */,
 				C0F04E0E1BFA83F700E9925E /* SwiftyButton.h */,
 				C0F04E101BFA83F700E9925E /* Info.plist */,
 			);
@@ -118,7 +118,7 @@
 				TargetAttributes = {
 					C0F04E0A1BFA83F700E9925E = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -162,7 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -171,10 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09D78501DBD54B50014565F /* PressableButton.swift in Sources */,
-				C0372F2E1C0694F500E00B85 /* CustomPressableButton.swift in Sources */,
-				C09D784E1DBD4E110014565F /* FlatButton.swift in Sources */,
-				C09D784B1DBD427A0014565F /* Utils.swift in Sources */,
+				B69FC5EA2594ADAA007EB8BD /* FlatButton.swift in Sources */,
+				B69FC5EB2594ADAA007EB8BD /* PressableButton.swift in Sources */,
+				B69FC5E92594ADAA007EB8BD /* CustomPressableButton.swift in Sources */,
+				B69FC5E82594ADAA007EB8BD /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

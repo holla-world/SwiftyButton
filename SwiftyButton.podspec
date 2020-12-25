@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Scoop" => "ops@takescoop.com" }
 
   s.source       = { :git => "https://github.com/TakeScoop/SwiftyButton.git", :tag => s.version }
-  s.source_files = "SwiftyButton/*.swift"
+  s.source_files = "Sources/SwiftyButton/*.swift"
   s.framework    = "UIKit"
 
   s.requires_arc = true
